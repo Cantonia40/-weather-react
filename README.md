@@ -3,7 +3,7 @@
 This is the modern React frontend for my Weather API project. It was rebuilt from vanilla JavaScript to use React for state management and Tailwind CSS for rapid, responsive styling.
 
 ## Live Demo
-**Live URL:** [https://weather-react-git-six-64-vercel.app/](https://weather-react-git-six-64-vercel.app/) 
+**Live URL:** [https://weather-react-git-six-64-vercel.app/](https://weather-react-git-six-64.vercel.app/) 
 
 ## Features
 - Built with **React** (using `useState` for state management).
