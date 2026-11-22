@@ -1,16 +1,21 @@
-# React + Vite
+# Weather App (React + Tailwind CSS) 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is the modern React frontend for my Weather API project. It was rebuilt from vanilla JavaScript to use React for state management and Tailwind CSS for rapid, responsive styling.
 
-Currently, two official plugins are available:
+## Live Demo
+**Live URL:** [https://weather-react-git-six-64-vercel.app/](https://weather-react-git-six-64-vercel.app/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Built with **React** (using `useState` for state management).
+- Styled with **Tailwind CSS** for a modern, mobile-first UI.
+- Connects to a custom Node.js/Express backend (deployed on Render).
+- Handles loading states, API wake-up delays, and errors gracefully.
 
-## React Compiler
+## Tech Stack
+- React.js (Vite)
+- Tailwind CSS
+- Vercel (Deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Backend API
+This frontend connects to my custom Node.js/Express backend. 
+Check out the backend repository here: [weather-api](https://github.com/Cantonia40/weather-api)
